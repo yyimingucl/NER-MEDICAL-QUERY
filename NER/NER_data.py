@@ -10,8 +10,8 @@ Created on Mon Aug 17 10:10:51 2020
 import numpy as np
 import codecs
 #import torch
-from NER.NER_functions import get_length_feature,jieba
-from NER.NER_parameters import params
+from NER_functions import get_length_feature,jieba
+from NER_parameters import params
 
 config = params()
 
