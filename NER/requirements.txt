@@ -1,0 +1,11 @@
+jieba 
+pytorch == 1.6.0
+argparse
+codecs
+numpy
+random 
+os
+sys
+csv 
+pymysql
+logging

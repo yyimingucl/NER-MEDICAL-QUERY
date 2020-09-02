@@ -1,0 +1,1402 @@
+2020-08-24 02:13:13,295 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 02:13:13,295 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 02:13:13,296 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 02:13:13,296 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 02:13:13,296 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 02:13:13,297 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 02:13:13,298 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 02:13:13,298 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 02:13:13,298 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 02:13:13,299 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 02:13:13,299 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 02:13:13,300 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 02:13:13,300 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 02:13:13,300 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 02:13:13,301 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 02:13:13,301 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 02:13:13,302 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 02:13:13,302 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 02:13:13,303 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 02:13:13,303 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 02:13:13,304 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 02:13:13,304 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 02:13:13,305 - logger.py - print_config - INFO - train          :	True
+2020-08-24 02:14:53,833 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 02:14:53,834 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 02:14:53,834 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 02:14:53,835 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 02:14:53,835 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 02:14:53,836 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 02:14:53,836 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 02:14:53,836 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 02:14:53,837 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 02:14:53,837 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 02:14:53,838 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 02:14:53,838 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 02:14:53,839 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 02:14:53,839 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 02:14:53,840 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 02:14:53,840 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 02:14:53,840 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 02:14:53,841 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 02:14:53,841 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 02:14:53,842 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 02:14:53,842 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 02:14:53,843 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 02:14:53,846 - logger.py - print_config - INFO - train          :	True
+2020-08-24 02:14:55,637 - main.py - train - INFO - 204 / 65 / 2021 sentences in train / dev / test.
+2020-08-24 02:18:49,523 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 02:18:49,523 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 02:18:49,524 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 02:18:49,525 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 02:18:49,525 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 02:18:49,525 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 02:18:49,525 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 02:18:49,525 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 02:18:49,526 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 02:18:49,526 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 02:18:49,527 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 02:18:49,527 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 02:18:49,528 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 02:18:49,528 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 02:18:49,529 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 02:18:49,529 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 02:18:49,530 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 02:18:49,530 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 02:18:49,531 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 02:18:49,531 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 02:18:49,535 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 02:18:49,536 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 02:18:49,537 - logger.py - print_config - INFO - train          :	True
+2020-08-24 02:18:51,942 - main.py - train - INFO - 204 / 65 / 2021 sentences in train / dev / test.
+2020-08-24 02:21:56,399 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 02:21:56,400 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 02:21:56,401 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 02:21:56,401 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 02:21:56,401 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 02:21:56,402 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 02:21:56,402 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 02:21:56,402 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 02:21:56,403 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 02:21:56,403 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 02:21:56,403 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 02:21:56,404 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 02:21:56,405 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 02:21:56,405 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 02:21:56,405 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 02:21:56,406 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 02:21:56,407 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 02:21:56,407 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 02:21:56,407 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 02:21:56,408 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 02:21:56,408 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 02:21:56,409 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 02:21:56,415 - logger.py - print_config - INFO - train          :	True
+2020-08-24 02:21:58,220 - main.py - train - INFO - 204 / 65 / 2021 sentences in train / dev / test.
+2020-08-24 02:22:38,377 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 02:22:38,377 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 02:22:38,378 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 02:22:38,378 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 02:22:38,378 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 02:22:38,379 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 02:22:38,379 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 02:22:38,379 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 02:22:38,380 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 02:22:38,380 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 02:22:38,381 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 02:22:38,381 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 02:22:38,381 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 02:22:38,382 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 02:22:38,382 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 02:22:38,382 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 02:22:38,383 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 02:22:38,383 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 02:22:38,384 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 02:22:38,387 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 02:22:38,391 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 02:22:38,392 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 02:22:38,392 - logger.py - print_config - INFO - train          :	True
+2020-08-24 02:22:40,385 - main.py - train - INFO - 204 / 65 / 2021 sentences in train / dev / test.
+2020-08-24 02:26:06,370 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 02:26:06,370 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 02:26:06,371 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 02:26:06,371 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 02:26:06,371 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 02:26:06,372 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 02:26:06,372 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 02:26:06,373 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 02:26:06,373 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 02:26:06,374 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 02:26:06,374 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 02:26:06,375 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 02:26:06,376 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 02:26:06,379 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 02:26:06,380 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 02:26:06,381 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 02:26:06,381 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 02:26:06,382 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 02:26:06,382 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 02:26:06,383 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 02:26:06,384 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 02:26:06,384 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 02:26:06,385 - logger.py - print_config - INFO - train          :	True
+2020-08-24 02:26:08,796 - main.py - train - INFO - 204 / 65 / 2021 sentences in train / dev / test.
+2020-08-24 02:26:34,878 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 02:26:34,879 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 02:26:34,880 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 02:26:34,881 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 02:26:34,885 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 02:26:34,886 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 02:26:34,888 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 02:26:34,892 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 02:26:34,900 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 02:26:34,903 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 02:26:34,907 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 02:26:34,908 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 02:26:34,912 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 02:26:34,915 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 02:26:34,916 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 02:26:34,916 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 02:26:34,918 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 02:26:34,920 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 02:26:34,920 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 02:26:34,924 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 02:26:34,925 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 02:26:34,926 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 02:26:34,927 - logger.py - print_config - INFO - train          :	True
+2020-08-24 02:26:37,158 - main.py - train - INFO - 204 / 65 / 2021 sentences in train / dev / test.
+2020-08-24 03:17:09,137 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:17:09,138 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:17:09,139 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:17:09,142 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:17:09,143 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:17:09,144 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:17:09,145 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:17:09,149 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:17:09,150 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:17:09,151 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:17:09,151 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:17:09,152 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:17:09,153 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:17:09,155 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:17:09,155 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:17:09,157 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:17:09,158 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:17:09,158 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:17:09,159 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:17:09,159 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:17:09,160 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:17:09,160 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:17:09,161 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:17:11,379 - main.py - train - INFO - 203 / 68 / 2021 sentences in train / dev / test.
+2020-08-24 03:19:57,412 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:19:57,413 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:19:57,413 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:19:57,413 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:19:57,414 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:19:57,414 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:19:57,414 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:19:57,414 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:19:57,415 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:19:57,415 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:19:57,416 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:19:57,416 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:19:57,417 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:19:57,417 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:19:57,418 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:19:57,418 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:19:57,418 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:19:57,419 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:19:57,419 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:19:57,420 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:19:57,420 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:19:57,421 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:19:57,421 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:19:59,423 - main.py - train - INFO - 203 / 68 / 2021 sentences in train / dev / test.
+2020-08-24 03:22:55,992 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:22:55,993 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:22:55,994 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:22:55,994 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:22:55,995 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:22:55,995 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:22:55,995 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:22:55,996 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:22:55,996 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:22:55,997 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:22:55,998 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:22:56,001 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:22:56,002 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:22:56,005 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:22:56,006 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:22:56,006 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:22:56,007 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:22:56,007 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:22:56,008 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:22:56,008 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:22:56,009 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:22:56,009 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:22:56,010 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:22:58,148 - main.py - train - INFO - 203 / 68 / 2021 sentences in train / dev / test.
+2020-08-24 03:24:59,216 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:24:59,216 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:24:59,217 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:24:59,217 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:24:59,217 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:24:59,218 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:24:59,218 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:24:59,218 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:24:59,219 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:24:59,219 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:24:59,220 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:24:59,220 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:24:59,221 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:24:59,222 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:24:59,223 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:24:59,229 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:24:59,230 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:24:59,231 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:24:59,231 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:24:59,232 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:24:59,232 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:24:59,233 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:24:59,233 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:25:01,539 - main.py - train - INFO - 203 / 68 / 2021 sentences in train / dev / test.
+2020-08-24 03:27:15,832 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:27:15,832 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:27:15,833 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:27:15,833 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:27:15,834 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:27:15,834 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:27:15,834 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:27:15,835 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:27:15,835 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:27:15,836 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:27:15,836 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:27:15,837 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:27:15,837 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:27:15,837 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:27:15,838 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:27:15,838 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:27:15,842 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:27:15,842 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:27:15,844 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:27:15,844 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:27:15,845 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:27:15,845 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:27:15,846 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:27:18,054 - main.py - train - INFO - 203 / 68 / 2021 sentences in train / dev / test.
+2020-08-24 03:27:38,044 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:27:38,044 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:27:38,045 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:27:38,050 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:27:38,051 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:27:38,051 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:27:38,056 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:27:38,057 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:27:38,058 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:27:38,060 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:27:38,062 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:27:38,066 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:27:38,067 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:27:38,067 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:27:38,068 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:27:38,069 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:27:38,069 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:27:38,072 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:27:38,072 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:27:38,075 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:27:38,076 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:27:38,076 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:27:38,077 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:27:40,201 - main.py - train - INFO - 203 / 68 / 2021 sentences in train / dev / test.
+2020-08-24 03:34:45,647 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:34:45,648 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:34:45,649 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:34:45,653 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:34:45,655 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:34:45,659 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:34:45,659 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:34:45,660 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:34:45,660 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:34:45,661 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:34:45,661 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:34:45,662 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:34:45,662 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:34:45,662 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:34:45,665 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:34:45,666 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:34:45,667 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:34:45,667 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:34:45,668 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:34:45,669 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:34:45,669 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:34:45,670 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:34:45,670 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:34:48,122 - main.py - train - INFO - 203 / 0 / 2021 sentences in train / dev / test.
+2020-08-24 03:37:22,451 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:37:22,452 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:37:22,452 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:37:22,456 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:37:22,458 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:37:22,462 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:37:22,463 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:37:22,463 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:37:22,464 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:37:22,464 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:37:22,465 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:37:22,465 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:37:22,466 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:37:22,468 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:37:22,469 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:37:22,470 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:37:22,470 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:37:22,471 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:37:22,471 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:37:22,472 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:37:22,472 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:37:22,473 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:37:22,474 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:37:24,716 - main.py - train - INFO - 203 / 67 / 2021 sentences in train / dev / test.
+2020-08-24 03:39:56,426 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:39:56,427 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:39:56,428 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:39:56,429 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:39:56,433 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:39:56,433 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:39:56,434 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:39:56,434 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:39:56,435 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:39:56,436 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:39:56,436 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:39:56,437 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:39:56,437 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:39:56,440 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:39:56,440 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:39:56,441 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:39:56,441 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:39:56,442 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:39:56,443 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:39:56,444 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:39:56,444 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:39:56,445 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:39:56,446 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:39:58,308 - main.py - train - INFO - 203 / 67 / 65 sentences in train / dev / test.
+2020-08-24 03:44:58,519 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:44:58,519 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:44:58,520 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:44:58,520 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:44:58,521 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:44:58,521 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:44:58,522 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:44:58,522 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:44:58,523 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:44:58,523 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:44:58,524 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:44:58,524 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:44:58,528 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:44:58,528 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:44:58,529 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:44:58,529 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:44:58,530 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:44:58,530 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:44:58,531 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:44:58,531 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:44:58,532 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:44:58,532 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:44:58,533 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:45:00,761 - main.py - train - INFO - 203 / 67 / 65 sentences in train / dev / test.
+2020-08-24 03:45:00,780 - main.py - train - INFO -  Start Training ...... 
+2020-08-24 03:45:00,781 - main.py - train - INFO - Epoch [1/50]
+2020-08-24 03:45:01,453 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 125 phrases; correct: 0.
+
+2020-08-24 03:45:01,453 - main.py - evaluate - INFO - accuracy:  56.21%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2020-08-24 03:45:01,455 - main.py - evaluate - INFO -           DISEASE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:45:01,459 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2020-08-24 03:45:01,459 - main.py - evaluate - INFO -           PATIENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:45:01,459 - main.py - evaluate - INFO -          QUESTION: precision:   0.00%; recall:   0.00%; FB1:   0.00  90
+
+2020-08-24 03:45:01,460 - main.py - evaluate - INFO -              SIGN: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:45:01,460 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  20
+
+2020-08-24 03:45:01,468 - main.py - train - INFO - Iter: 0 | Dev Loss: 60.4193 | Dev F1-macro: 0.0000 | Time: 0:00:01 | *
+2020-08-24 03:45:02,857 - main.py - train - INFO - Epoch [2/50]
+2020-08-24 03:45:04,091 - main.py - train - INFO - Epoch [3/50]
+2020-08-24 03:45:05,137 - main.py - train - INFO - Epoch [4/50]
+2020-08-24 03:45:06,275 - main.py - train - INFO - Epoch [5/50]
+2020-08-24 03:45:07,606 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 151 phrases; correct: 56.
+
+2020-08-24 03:45:07,607 - main.py - evaluate - INFO - accuracy:  71.65%; precision:  37.09%; recall:  30.11%; FB1:  33.23
+
+2020-08-24 03:45:07,608 - main.py - evaluate - INFO -           DISEASE: precision:  45.83%; recall:  44.00%; FB1:  44.90  24
+
+2020-08-24 03:45:07,612 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:45:07,612 - main.py - evaluate - INFO -           PATIENT: precision:  33.33%; recall:  46.67%; FB1:  38.89  21
+
+2020-08-24 03:45:07,613 - main.py - evaluate - INFO -          QUESTION: precision:  40.62%; recall:  40.00%; FB1:  40.31  64
+
+2020-08-24 03:45:07,613 - main.py - evaluate - INFO -              SIGN: precision:  28.57%; recall:  21.43%; FB1:  24.49  42
+
+2020-08-24 03:45:07,614 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:45:07,619 - main.py - train - INFO - Iter: 100 | Dev Loss: 18.4751 | Dev F1-macro: 0.3807 | Time: 0:00:07 | *
+2020-08-24 03:45:07,777 - main.py - train - INFO - Epoch [6/50]
+2020-08-24 03:45:08,841 - main.py - train - INFO - Epoch [7/50]
+2020-08-24 03:45:10,054 - main.py - train - INFO - Epoch [8/50]
+2020-08-24 03:45:11,201 - main.py - train - INFO - Epoch [9/50]
+2020-08-24 03:45:12,539 - main.py - train - INFO - Epoch [10/50]
+2020-08-24 03:45:13,543 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 219 phrases; correct: 89.
+
+2020-08-24 03:45:13,543 - main.py - evaluate - INFO - accuracy:  73.63%; precision:  40.64%; recall:  47.85%; FB1:  43.95
+
+2020-08-24 03:45:13,545 - main.py - evaluate - INFO -           DISEASE: precision:  50.00%; recall:  60.00%; FB1:  54.55  30
+
+2020-08-24 03:45:13,545 - main.py - evaluate - INFO -              PART: precision:  40.62%; recall:  61.90%; FB1:  49.06  32
+
+2020-08-24 03:45:13,549 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 03:45:13,550 - main.py - evaluate - INFO -          QUESTION: precision:  36.11%; recall:  40.00%; FB1:  37.96  72
+
+2020-08-24 03:45:13,550 - main.py - evaluate - INFO -              SIGN: precision:  40.98%; recall:  44.64%; FB1:  42.74  61
+
+2020-08-24 03:45:13,550 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2020-08-24 03:45:13,556 - main.py - train - INFO - Iter: 200 | Dev Loss: 18.8419 | Dev F1-macro: 0.4373 | Time: 0:00:13 | *
+2020-08-24 03:45:14,168 - main.py - train - INFO - Epoch [11/50]
+2020-08-24 03:45:15,259 - main.py - train - INFO - Epoch [12/50]
+2020-08-24 03:45:16,378 - main.py - train - INFO - Epoch [13/50]
+2020-08-24 03:45:17,449 - main.py - train - INFO - Epoch [14/50]
+2020-08-24 03:45:18,561 - main.py - train - INFO - Epoch [15/50]
+2020-08-24 03:45:19,382 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 214 phrases; correct: 84.
+
+2020-08-24 03:45:19,382 - main.py - evaluate - INFO - accuracy:  71.54%; precision:  39.25%; recall:  45.16%; FB1:  42.00
+
+2020-08-24 03:45:19,384 - main.py - evaluate - INFO -           DISEASE: precision:  55.17%; recall:  64.00%; FB1:  59.26  29
+
+2020-08-24 03:45:19,388 - main.py - evaluate - INFO -              PART: precision:  38.24%; recall:  61.90%; FB1:  47.27  34
+
+2020-08-24 03:45:19,388 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 03:45:19,389 - main.py - evaluate - INFO -          QUESTION: precision:  31.67%; recall:  29.23%; FB1:  30.40  60
+
+2020-08-24 03:45:19,389 - main.py - evaluate - INFO -              SIGN: precision:  37.31%; recall:  44.64%; FB1:  40.65  67
+
+2020-08-24 03:45:19,389 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 03:45:19,394 - main.py - train - INFO - Iter: 300 | Dev Loss: 23.5305 | Dev F1-macro: 0.4416 | Time: 0:00:19 | *
+2020-08-24 03:45:20,025 - main.py - train - INFO - Epoch [16/50]
+2020-08-24 03:45:21,083 - main.py - train - INFO - Epoch [17/50]
+2020-08-24 03:45:22,377 - main.py - train - INFO - Epoch [18/50]
+2020-08-24 03:45:23,463 - main.py - train - INFO - Epoch [19/50]
+2020-08-24 03:45:24,707 - main.py - train - INFO - Epoch [20/50]
+2020-08-24 03:45:24,995 - main.py - train - INFO - Iter: 400 | Dev Loss: 28.2384 | Dev F1-macro: 0.4184 | Time: 0:00:24 | 
+2020-08-24 03:45:26,032 - main.py - train - INFO - Epoch [21/50]
+2020-08-24 03:45:27,286 - main.py - train - INFO - Epoch [22/50]
+2020-08-24 03:45:28,382 - main.py - train - INFO - Epoch [23/50]
+2020-08-24 03:45:29,461 - main.py - train - INFO - Epoch [24/50]
+2020-08-24 03:45:30,750 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 196 phrases; correct: 80.
+
+2020-08-24 03:45:30,750 - main.py - evaluate - INFO - accuracy:  73.14%; precision:  40.82%; recall:  43.01%; FB1:  41.88
+
+2020-08-24 03:45:30,751 - main.py - evaluate - INFO -           DISEASE: precision:  60.00%; recall:  48.00%; FB1:  53.33  20
+
+2020-08-24 03:45:30,752 - main.py - evaluate - INFO -              PART: precision:  44.44%; recall:  57.14%; FB1:  50.00  27
+
+2020-08-24 03:45:30,756 - main.py - evaluate - INFO -           PATIENT: precision:  42.86%; recall:  60.00%; FB1:  50.00  21
+
+2020-08-24 03:45:30,756 - main.py - evaluate - INFO -          QUESTION: precision:  33.85%; recall:  33.85%; FB1:  33.85  65
+
+2020-08-24 03:45:30,756 - main.py - evaluate - INFO -              SIGN: precision:  40.00%; recall:  42.86%; FB1:  41.38  60
+
+2020-08-24 03:45:30,757 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 03:45:30,762 - main.py - train - INFO - Iter: 500 | Dev Loss: 29.7889 | Dev F1-macro: 0.4457 | Time: 0:00:30 | *
+2020-08-24 03:45:30,971 - main.py - train - INFO - Epoch [25/50]
+2020-08-24 03:45:32,227 - main.py - train - INFO - Epoch [26/50]
+2020-08-24 03:45:33,364 - main.py - train - INFO - Epoch [27/50]
+2020-08-24 03:45:34,460 - main.py - train - INFO - Epoch [28/50]
+2020-08-24 03:45:35,542 - main.py - train - INFO - Epoch [29/50]
+2020-08-24 03:45:36,599 - main.py - train - INFO - Iter: 600 | Dev Loss: 36.6710 | Dev F1-macro: 0.3945 | Time: 0:00:36 | 
+2020-08-24 03:45:37,031 - main.py - train - INFO - Epoch [30/50]
+2020-08-24 03:45:38,271 - main.py - train - INFO - Epoch [31/50]
+2020-08-24 03:45:39,410 - main.py - train - INFO - Epoch [32/50]
+2020-08-24 03:45:40,527 - main.py - train - INFO - Epoch [33/50]
+2020-08-24 03:45:41,597 - main.py - train - INFO - Epoch [34/50]
+2020-08-24 03:45:42,105 - main.py - train - INFO - Iter: 700 | Dev Loss: 36.6037 | Dev F1-macro: 0.4064 | Time: 0:00:41 | 
+2020-08-24 03:45:42,889 - main.py - train - INFO - Epoch [35/50]
+2020-08-24 03:45:43,982 - main.py - train - INFO - Epoch [36/50]
+2020-08-24 03:45:45,055 - main.py - train - INFO - Epoch [37/50]
+2020-08-24 03:45:46,141 - main.py - train - INFO - Epoch [38/50]
+2020-08-24 03:45:47,366 - main.py - train - INFO - Epoch [39/50]
+2020-08-24 03:45:47,851 - main.py - train - INFO - Iter: 800 | Dev Loss: 42.0644 | Dev F1-macro: 0.4111 | Time: 0:00:47 | 
+2020-08-24 03:45:48,805 - main.py - train - INFO - Epoch [40/50]
+2020-08-24 03:45:50,044 - main.py - train - INFO - Epoch [41/50]
+2020-08-24 03:45:51,109 - main.py - train - INFO - Epoch [42/50]
+2020-08-24 03:45:52,353 - main.py - train - INFO - Epoch [43/50]
+2020-08-24 03:45:53,459 - main.py - train - INFO - Iter: 900 | Dev Loss: 39.3257 | Dev F1-macro: 0.4173 | Time: 0:00:53 | 
+2020-08-24 03:45:53,642 - main.py - train - INFO - Epoch [44/50]
+2020-08-24 03:45:54,782 - main.py - train - INFO - Epoch [45/50]
+2020-08-24 03:45:56,048 - main.py - train - INFO - Epoch [46/50]
+2020-08-24 03:45:57,268 - main.py - train - INFO - Epoch [47/50]
+2020-08-24 03:45:58,333 - main.py - train - INFO - Epoch [48/50]
+2020-08-24 03:45:59,237 - main.py - train - INFO - Iter: 1000 | Dev Loss: 41.8001 | Dev F1-macro: 0.4336 | Time: 0:00:58 | 
+2020-08-24 03:45:59,629 - main.py - train - INFO - Epoch [49/50]
+2020-08-24 03:46:00,866 - main.py - train - INFO - Epoch [50/50]
+2020-08-24 03:53:49,571 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:53:49,572 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:53:49,573 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:53:49,573 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:53:49,574 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:53:49,574 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:53:49,574 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:53:49,575 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:53:49,575 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:53:49,575 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:53:49,576 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:53:49,576 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:53:49,576 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:53:49,577 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:53:49,578 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:53:49,578 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:53:49,578 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:53:49,579 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:53:49,579 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:53:49,580 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:53:49,580 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:53:49,581 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:53:49,587 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:53:51,407 - main.py - train - INFO - 203 / 67 / 65 sentences in train / dev / test.
+2020-08-24 03:53:51,413 - main.py - train - INFO -  Start Training ...... 
+2020-08-24 03:53:51,413 - main.py - train - INFO - Epoch [1/50]
+2020-08-24 03:53:51,884 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 125 phrases; correct: 0.
+
+2020-08-24 03:53:51,885 - main.py - evaluate - INFO - accuracy:  56.21%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2020-08-24 03:53:51,886 - main.py - evaluate - INFO -           DISEASE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:53:51,890 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2020-08-24 03:53:51,891 - main.py - evaluate - INFO -           PATIENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:53:51,891 - main.py - evaluate - INFO -          QUESTION: precision:   0.00%; recall:   0.00%; FB1:   0.00  90
+
+2020-08-24 03:53:51,891 - main.py - evaluate - INFO -              SIGN: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:53:51,892 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  20
+
+2020-08-24 03:53:51,897 - main.py - train - INFO - Iter: 0 | Dev Loss: 60.4193 | Dev F1-macro: 0.0000 | Time: 0:00:00 | *
+2020-08-24 03:53:52,990 - main.py - train - INFO - Epoch [2/50]
+2020-08-24 03:53:54,338 - main.py - train - INFO - Epoch [3/50]
+2020-08-24 03:53:55,530 - main.py - train - INFO - Epoch [4/50]
+2020-08-24 03:53:56,606 - main.py - train - INFO - Epoch [5/50]
+2020-08-24 03:53:57,935 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 151 phrases; correct: 56.
+
+2020-08-24 03:53:57,935 - main.py - evaluate - INFO - accuracy:  71.65%; precision:  37.09%; recall:  30.11%; FB1:  33.23
+
+2020-08-24 03:53:57,940 - main.py - evaluate - INFO -           DISEASE: precision:  45.83%; recall:  44.00%; FB1:  44.90  24
+
+2020-08-24 03:53:57,940 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:53:57,940 - main.py - evaluate - INFO -           PATIENT: precision:  33.33%; recall:  46.67%; FB1:  38.89  21
+
+2020-08-24 03:53:57,941 - main.py - evaluate - INFO -          QUESTION: precision:  40.62%; recall:  40.00%; FB1:  40.31  64
+
+2020-08-24 03:53:57,941 - main.py - evaluate - INFO -              SIGN: precision:  28.57%; recall:  21.43%; FB1:  24.49  42
+
+2020-08-24 03:53:57,942 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:53:57,946 - main.py - train - INFO - Iter: 100 | Dev Loss: 18.4751 | Dev F1-macro: 0.3807 | Time: 0:00:07 | *
+2020-08-24 03:53:58,093 - main.py - train - INFO - Epoch [6/50]
+2020-08-24 03:53:59,171 - main.py - train - INFO - Epoch [7/50]
+2020-08-24 03:54:00,366 - main.py - train - INFO - Epoch [8/50]
+2020-08-24 03:54:01,472 - main.py - train - INFO - Epoch [9/50]
+2020-08-24 03:54:02,530 - main.py - train - INFO - Epoch [10/50]
+2020-08-24 03:54:03,544 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 219 phrases; correct: 89.
+
+2020-08-24 03:54:03,545 - main.py - evaluate - INFO - accuracy:  73.63%; precision:  40.64%; recall:  47.85%; FB1:  43.95
+
+2020-08-24 03:54:03,546 - main.py - evaluate - INFO -           DISEASE: precision:  50.00%; recall:  60.00%; FB1:  54.55  30
+
+2020-08-24 03:54:03,546 - main.py - evaluate - INFO -              PART: precision:  40.62%; recall:  61.90%; FB1:  49.06  32
+
+2020-08-24 03:54:03,550 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 03:54:03,551 - main.py - evaluate - INFO -          QUESTION: precision:  36.11%; recall:  40.00%; FB1:  37.96  72
+
+2020-08-24 03:54:03,551 - main.py - evaluate - INFO -              SIGN: precision:  40.98%; recall:  44.64%; FB1:  42.74  61
+
+2020-08-24 03:54:03,552 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2020-08-24 03:54:03,557 - main.py - train - INFO - Iter: 200 | Dev Loss: 18.8419 | Dev F1-macro: 0.4373 | Time: 0:00:12 | *
+2020-08-24 03:54:04,042 - main.py - train - INFO - Epoch [11/50]
+2020-08-24 03:54:05,122 - main.py - train - INFO - Epoch [12/50]
+2020-08-24 03:54:06,197 - main.py - train - INFO - Epoch [13/50]
+2020-08-24 03:54:07,461 - main.py - train - INFO - Epoch [14/50]
+2020-08-24 03:54:08,606 - main.py - train - INFO - Epoch [15/50]
+2020-08-24 03:54:09,564 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 214 phrases; correct: 84.
+
+2020-08-24 03:54:09,565 - main.py - evaluate - INFO - accuracy:  71.54%; precision:  39.25%; recall:  45.16%; FB1:  42.00
+
+2020-08-24 03:54:09,566 - main.py - evaluate - INFO -           DISEASE: precision:  55.17%; recall:  64.00%; FB1:  59.26  29
+
+2020-08-24 03:54:09,569 - main.py - evaluate - INFO -              PART: precision:  38.24%; recall:  61.90%; FB1:  47.27  34
+
+2020-08-24 03:54:09,569 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 03:54:09,570 - main.py - evaluate - INFO -          QUESTION: precision:  31.67%; recall:  29.23%; FB1:  30.40  60
+
+2020-08-24 03:54:09,570 - main.py - evaluate - INFO -              SIGN: precision:  37.31%; recall:  44.64%; FB1:  40.65  67
+
+2020-08-24 03:54:09,571 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 03:54:09,575 - main.py - train - INFO - Iter: 300 | Dev Loss: 23.5305 | Dev F1-macro: 0.4416 | Time: 0:00:18 | *
+2020-08-24 03:54:10,388 - main.py - train - INFO - Epoch [16/50]
+2020-08-24 03:54:11,561 - main.py - train - INFO - Epoch [17/50]
+2020-08-24 03:54:12,623 - main.py - train - INFO - Epoch [18/50]
+2020-08-24 03:54:13,688 - main.py - train - INFO - Epoch [19/50]
+2020-08-24 03:54:14,925 - main.py - train - INFO - Epoch [20/50]
+2020-08-24 03:54:15,198 - main.py - train - INFO - Iter: 400 | Dev Loss: 28.2384 | Dev F1-macro: 0.4184 | Time: 0:00:24 | 
+2020-08-24 03:54:16,328 - main.py - train - INFO - Epoch [21/50]
+2020-08-24 03:54:17,543 - main.py - train - INFO - Epoch [22/50]
+2020-08-24 03:54:18,641 - main.py - train - INFO - Epoch [23/50]
+2020-08-24 03:54:19,712 - main.py - train - INFO - Epoch [24/50]
+2020-08-24 03:54:20,982 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 196 phrases; correct: 80.
+
+2020-08-24 03:54:20,982 - main.py - evaluate - INFO - accuracy:  73.14%; precision:  40.82%; recall:  43.01%; FB1:  41.88
+
+2020-08-24 03:54:20,984 - main.py - evaluate - INFO -           DISEASE: precision:  60.00%; recall:  48.00%; FB1:  53.33  20
+
+2020-08-24 03:54:20,987 - main.py - evaluate - INFO -              PART: precision:  44.44%; recall:  57.14%; FB1:  50.00  27
+
+2020-08-24 03:54:20,987 - main.py - evaluate - INFO -           PATIENT: precision:  42.86%; recall:  60.00%; FB1:  50.00  21
+
+2020-08-24 03:54:20,988 - main.py - evaluate - INFO -          QUESTION: precision:  33.85%; recall:  33.85%; FB1:  33.85  65
+
+2020-08-24 03:54:20,988 - main.py - evaluate - INFO -              SIGN: precision:  40.00%; recall:  42.86%; FB1:  41.38  60
+
+2020-08-24 03:54:20,988 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 03:54:20,993 - main.py - train - INFO - Iter: 500 | Dev Loss: 29.7889 | Dev F1-macro: 0.4457 | Time: 0:00:30 | *
+2020-08-24 03:54:21,223 - main.py - train - INFO - Epoch [25/50]
+2020-08-24 03:54:22,431 - main.py - train - INFO - Epoch [26/50]
+2020-08-24 03:54:23,542 - main.py - train - INFO - Epoch [27/50]
+2020-08-24 03:54:24,917 - main.py - train - INFO - Epoch [28/50]
+2020-08-24 03:54:26,147 - main.py - train - INFO - Epoch [29/50]
+2020-08-24 03:54:27,156 - main.py - train - INFO - Iter: 600 | Dev Loss: 36.6710 | Dev F1-macro: 0.3945 | Time: 0:00:36 | 
+2020-08-24 03:54:27,459 - main.py - train - INFO - Epoch [30/50]
+2020-08-24 03:54:28,565 - main.py - train - INFO - Epoch [31/50]
+2020-08-24 03:54:29,758 - main.py - train - INFO - Epoch [32/50]
+2020-08-24 03:54:30,806 - main.py - train - INFO - Epoch [33/50]
+2020-08-24 03:54:31,836 - main.py - train - INFO - Epoch [34/50]
+2020-08-24 03:54:32,335 - main.py - train - INFO - Iter: 700 | Dev Loss: 36.6037 | Dev F1-macro: 0.4064 | Time: 0:00:41 | 
+2020-08-24 03:54:33,270 - main.py - train - INFO - Epoch [35/50]
+2020-08-24 03:54:34,503 - main.py - train - INFO - Epoch [36/50]
+2020-08-24 03:54:35,556 - main.py - train - INFO - Epoch [37/50]
+2020-08-24 03:54:36,792 - main.py - train - INFO - Epoch [38/50]
+2020-08-24 03:54:37,829 - main.py - train - INFO - Epoch [39/50]
+2020-08-24 03:54:38,136 - main.py - train - INFO - Iter: 800 | Dev Loss: 42.0644 | Dev F1-macro: 0.4111 | Time: 0:00:47 | 
+2020-08-24 03:54:39,114 - main.py - train - INFO - Epoch [40/50]
+2020-08-24 03:54:40,171 - main.py - train - INFO - Epoch [41/50]
+2020-08-24 03:54:41,355 - main.py - train - INFO - Epoch [42/50]
+2020-08-24 03:54:42,421 - main.py - train - INFO - Epoch [43/50]
+2020-08-24 03:54:43,494 - main.py - train - INFO - Iter: 900 | Dev Loss: 39.3257 | Dev F1-macro: 0.4173 | Time: 0:00:52 | 
+2020-08-24 03:54:43,665 - main.py - train - INFO - Epoch [44/50]
+2020-08-24 03:54:44,767 - main.py - train - INFO - Epoch [45/50]
+2020-08-24 03:54:45,836 - main.py - train - INFO - Epoch [46/50]
+2020-08-24 03:54:47,041 - main.py - train - INFO - Epoch [47/50]
+2020-08-24 03:54:48,080 - main.py - train - INFO - Epoch [48/50]
+2020-08-24 03:54:48,960 - main.py - train - INFO - Iter: 1000 | Dev Loss: 41.8001 | Dev F1-macro: 0.4336 | Time: 0:00:58 | 
+2020-08-24 03:54:49,332 - main.py - train - INFO - Epoch [49/50]
+2020-08-24 03:54:50,439 - main.py - train - INFO - Epoch [50/50]
+2020-08-24 03:58:37,983 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 03:58:37,983 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 03:58:37,984 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 03:58:37,984 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 03:58:37,984 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 03:58:37,985 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 03:58:37,986 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 03:58:37,987 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 03:58:37,988 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 03:58:37,989 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 03:58:37,994 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 03:58:37,995 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 03:58:37,997 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 03:58:37,998 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 03:58:37,999 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 03:58:38,000 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 03:58:38,000 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 03:58:38,001 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 03:58:38,001 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 03:58:38,002 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 03:58:38,002 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 03:58:38,005 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 03:58:38,006 - logger.py - print_config - INFO - train          :	True
+2020-08-24 03:58:40,210 - main.py - train - INFO - 203 / 67 / 65 sentences in train / dev / test.
+2020-08-24 03:58:40,217 - main.py - train - INFO -  Start Training ...... 
+2020-08-24 03:58:40,218 - main.py - train - INFO - Epoch [1/50]
+2020-08-24 03:58:40,680 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 125 phrases; correct: 0.
+
+2020-08-24 03:58:40,681 - main.py - evaluate - INFO - accuracy:  56.21%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2020-08-24 03:58:40,684 - main.py - evaluate - INFO -           DISEASE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:58:40,688 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2020-08-24 03:58:40,689 - main.py - evaluate - INFO -           PATIENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:58:40,692 - main.py - evaluate - INFO -          QUESTION: precision:   0.00%; recall:   0.00%; FB1:   0.00  90
+
+2020-08-24 03:58:40,698 - main.py - evaluate - INFO -              SIGN: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:58:40,705 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  20
+
+2020-08-24 03:58:40,726 - main.py - train - INFO - Iter: 0 | Dev Loss: 60.4193 | Dev F1-macro: 0.0000 | Time: 0:00:01 | *
+2020-08-24 03:58:41,990 - main.py - train - INFO - Epoch [2/50]
+2020-08-24 03:58:43,180 - main.py - train - INFO - Epoch [3/50]
+2020-08-24 03:58:44,445 - main.py - train - INFO - Epoch [4/50]
+2020-08-24 03:58:45,626 - main.py - train - INFO - Epoch [5/50]
+2020-08-24 03:58:47,034 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 151 phrases; correct: 56.
+
+2020-08-24 03:58:47,034 - main.py - evaluate - INFO - accuracy:  71.65%; precision:  37.09%; recall:  30.11%; FB1:  33.23
+
+2020-08-24 03:58:47,035 - main.py - evaluate - INFO -           DISEASE: precision:  45.83%; recall:  44.00%; FB1:  44.90  24
+
+2020-08-24 03:58:47,035 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:58:47,036 - main.py - evaluate - INFO -           PATIENT: precision:  33.33%; recall:  46.67%; FB1:  38.89  21
+
+2020-08-24 03:58:47,036 - main.py - evaluate - INFO -          QUESTION: precision:  40.62%; recall:  40.00%; FB1:  40.31  64
+
+2020-08-24 03:58:47,036 - main.py - evaluate - INFO -              SIGN: precision:  28.57%; recall:  21.43%; FB1:  24.49  42
+
+2020-08-24 03:58:47,037 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 03:58:47,042 - main.py - train - INFO - Iter: 100 | Dev Loss: 18.4751 | Dev F1-macro: 0.3807 | Time: 0:00:07 | *
+2020-08-24 03:58:47,193 - main.py - train - INFO - Epoch [6/50]
+2020-08-24 03:58:48,382 - main.py - train - INFO - Epoch [7/50]
+2020-08-24 03:58:49,539 - main.py - train - INFO - Epoch [8/50]
+2020-08-24 03:58:50,637 - main.py - train - INFO - Epoch [9/50]
+2020-08-24 03:58:51,693 - main.py - train - INFO - Epoch [10/50]
+2020-08-24 03:58:52,849 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 219 phrases; correct: 89.
+
+2020-08-24 03:58:52,849 - main.py - evaluate - INFO - accuracy:  73.63%; precision:  40.64%; recall:  47.85%; FB1:  43.95
+
+2020-08-24 03:58:52,850 - main.py - evaluate - INFO -           DISEASE: precision:  50.00%; recall:  60.00%; FB1:  54.55  30
+
+2020-08-24 03:58:52,851 - main.py - evaluate - INFO -              PART: precision:  40.62%; recall:  61.90%; FB1:  49.06  32
+
+2020-08-24 03:58:52,855 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 03:58:52,855 - main.py - evaluate - INFO -          QUESTION: precision:  36.11%; recall:  40.00%; FB1:  37.96  72
+
+2020-08-24 03:58:52,855 - main.py - evaluate - INFO -              SIGN: precision:  40.98%; recall:  44.64%; FB1:  42.74  61
+
+2020-08-24 03:58:52,856 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2020-08-24 03:58:52,862 - main.py - train - INFO - Iter: 200 | Dev Loss: 18.8419 | Dev F1-macro: 0.4373 | Time: 0:00:13 | *
+2020-08-24 03:58:53,354 - main.py - train - INFO - Epoch [11/50]
+2020-08-24 03:58:54,599 - main.py - train - INFO - Epoch [12/50]
+2020-08-24 03:58:55,851 - main.py - train - INFO - Epoch [13/50]
+2020-08-24 03:58:56,946 - main.py - train - INFO - Epoch [14/50]
+2020-08-24 03:58:57,988 - main.py - train - INFO - Epoch [15/50]
+2020-08-24 03:58:58,808 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 214 phrases; correct: 84.
+
+2020-08-24 03:58:58,808 - main.py - evaluate - INFO - accuracy:  71.54%; precision:  39.25%; recall:  45.16%; FB1:  42.00
+
+2020-08-24 03:58:58,809 - main.py - evaluate - INFO -           DISEASE: precision:  55.17%; recall:  64.00%; FB1:  59.26  29
+
+2020-08-24 03:58:58,813 - main.py - evaluate - INFO -              PART: precision:  38.24%; recall:  61.90%; FB1:  47.27  34
+
+2020-08-24 03:58:58,814 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 03:58:58,814 - main.py - evaluate - INFO -          QUESTION: precision:  31.67%; recall:  29.23%; FB1:  30.40  60
+
+2020-08-24 03:58:58,815 - main.py - evaluate - INFO -              SIGN: precision:  37.31%; recall:  44.64%; FB1:  40.65  67
+
+2020-08-24 03:58:58,815 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 03:58:58,821 - main.py - train - INFO - Iter: 300 | Dev Loss: 23.5305 | Dev F1-macro: 0.4416 | Time: 0:00:19 | *
+2020-08-24 03:58:59,452 - main.py - train - INFO - Epoch [16/50]
+2020-08-24 03:59:00,747 - main.py - train - INFO - Epoch [17/50]
+2020-08-24 03:59:02,009 - main.py - train - INFO - Epoch [18/50]
+2020-08-24 03:59:03,071 - main.py - train - INFO - Epoch [19/50]
+2020-08-24 03:59:04,153 - main.py - train - INFO - Epoch [20/50]
+2020-08-24 03:59:04,421 - main.py - train - INFO - Iter: 400 | Dev Loss: 28.2384 | Dev F1-macro: 0.4184 | Time: 0:00:24 | 
+2020-08-24 03:59:05,426 - main.py - train - INFO - Epoch [21/50]
+2020-08-24 03:59:06,643 - main.py - train - INFO - Epoch [22/50]
+2020-08-24 03:59:07,689 - main.py - train - INFO - Epoch [23/50]
+2020-08-24 03:59:08,756 - main.py - train - INFO - Epoch [24/50]
+2020-08-24 03:59:10,157 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 196 phrases; correct: 80.
+
+2020-08-24 03:59:10,158 - main.py - evaluate - INFO - accuracy:  73.14%; precision:  40.82%; recall:  43.01%; FB1:  41.88
+
+2020-08-24 03:59:10,159 - main.py - evaluate - INFO -           DISEASE: precision:  60.00%; recall:  48.00%; FB1:  53.33  20
+
+2020-08-24 03:59:10,163 - main.py - evaluate - INFO -              PART: precision:  44.44%; recall:  57.14%; FB1:  50.00  27
+
+2020-08-24 03:59:10,164 - main.py - evaluate - INFO -           PATIENT: precision:  42.86%; recall:  60.00%; FB1:  50.00  21
+
+2020-08-24 03:59:10,164 - main.py - evaluate - INFO -          QUESTION: precision:  33.85%; recall:  33.85%; FB1:  33.85  65
+
+2020-08-24 03:59:10,165 - main.py - evaluate - INFO -              SIGN: precision:  40.00%; recall:  42.86%; FB1:  41.38  60
+
+2020-08-24 03:59:10,165 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 03:59:10,170 - main.py - train - INFO - Iter: 500 | Dev Loss: 29.7889 | Dev F1-macro: 0.4457 | Time: 0:00:30 | *
+2020-08-24 03:59:10,379 - main.py - train - INFO - Epoch [25/50]
+2020-08-24 03:59:11,606 - main.py - train - INFO - Epoch [26/50]
+2020-08-24 03:59:12,862 - main.py - train - INFO - Epoch [27/50]
+2020-08-24 03:59:14,043 - main.py - train - INFO - Epoch [28/50]
+2020-08-24 03:59:15,108 - main.py - train - INFO - Epoch [29/50]
+2020-08-24 03:59:16,090 - main.py - train - INFO - Iter: 600 | Dev Loss: 36.6710 | Dev F1-macro: 0.3945 | Time: 0:00:36 | 
+2020-08-24 03:59:16,377 - main.py - train - INFO - Epoch [30/50]
+2020-08-24 03:59:17,443 - main.py - train - INFO - Epoch [31/50]
+2020-08-24 03:59:18,595 - main.py - train - INFO - Epoch [32/50]
+2020-08-24 03:59:19,634 - main.py - train - INFO - Epoch [33/50]
+2020-08-24 03:59:20,686 - main.py - train - INFO - Epoch [34/50]
+2020-08-24 03:59:21,196 - main.py - train - INFO - Iter: 700 | Dev Loss: 36.6037 | Dev F1-macro: 0.4064 | Time: 0:00:41 | 
+2020-08-24 03:59:21,930 - main.py - train - INFO - Epoch [35/50]
+2020-08-24 03:59:23,019 - main.py - train - INFO - Epoch [36/50]
+2020-08-24 03:59:24,085 - main.py - train - INFO - Epoch [37/50]
+2020-08-24 03:59:25,126 - main.py - train - INFO - Epoch [38/50]
+2020-08-24 03:59:26,186 - main.py - train - INFO - Epoch [39/50]
+2020-08-24 03:59:26,508 - main.py - train - INFO - Iter: 800 | Dev Loss: 42.0644 | Dev F1-macro: 0.4111 | Time: 0:00:46 | 
+2020-08-24 03:59:27,448 - main.py - train - INFO - Epoch [40/50]
+2020-08-24 03:59:28,504 - main.py - train - INFO - Epoch [41/50]
+2020-08-24 03:59:29,568 - main.py - train - INFO - Epoch [42/50]
+2020-08-24 03:59:30,642 - main.py - train - INFO - Epoch [43/50]
+2020-08-24 03:59:31,719 - main.py - train - INFO - Iter: 900 | Dev Loss: 39.3257 | Dev F1-macro: 0.4173 | Time: 0:00:52 | 
+2020-08-24 03:59:31,897 - main.py - train - INFO - Epoch [44/50]
+2020-08-24 03:59:32,989 - main.py - train - INFO - Epoch [45/50]
+2020-08-24 03:59:34,272 - main.py - train - INFO - Epoch [46/50]
+2020-08-24 03:59:35,533 - main.py - train - INFO - Epoch [47/50]
+2020-08-24 03:59:36,627 - main.py - train - INFO - Epoch [48/50]
+2020-08-24 03:59:37,630 - main.py - train - INFO - Iter: 1000 | Dev Loss: 41.8001 | Dev F1-macro: 0.4336 | Time: 0:00:57 | 
+2020-08-24 03:59:38,021 - main.py - train - INFO - Epoch [49/50]
+2020-08-24 03:59:39,106 - main.py - train - INFO - Epoch [50/50]
+2020-08-24 04:00:55,950 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 04:00:55,952 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 04:00:55,952 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 04:00:55,956 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 04:00:55,956 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 04:00:55,957 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 04:00:55,957 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 04:00:55,958 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 04:00:55,958 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 04:00:55,958 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 04:00:55,959 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 04:00:55,959 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 04:00:55,960 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 04:00:55,963 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 04:00:55,965 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 04:00:55,965 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 04:00:55,966 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 04:00:55,966 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 04:00:55,967 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 04:00:55,967 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 04:00:55,968 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 04:00:55,968 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 04:00:55,968 - logger.py - print_config - INFO - train          :	True
+2020-08-24 04:00:57,798 - main.py - train - INFO - 203 / 67 / 65 sentences in train / dev / test.
+2020-08-24 04:00:57,804 - main.py - train - INFO -  Start Training ...... 
+2020-08-24 04:00:57,804 - main.py - train - INFO - Epoch [1/50]
+2020-08-24 04:00:58,263 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 125 phrases; correct: 0.
+
+2020-08-24 04:00:58,263 - main.py - evaluate - INFO - accuracy:  56.21%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2020-08-24 04:00:58,265 - main.py - evaluate - INFO -           DISEASE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:00:58,269 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2020-08-24 04:00:58,269 - main.py - evaluate - INFO -           PATIENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:00:58,269 - main.py - evaluate - INFO -          QUESTION: precision:   0.00%; recall:   0.00%; FB1:   0.00  90
+
+2020-08-24 04:00:58,270 - main.py - evaluate - INFO -              SIGN: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:00:58,270 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  20
+
+2020-08-24 04:00:58,276 - main.py - train - INFO - Iter: 0 | Dev Loss: 60.4193 | Dev F1-macro: 0.0000 | Time: 0:00:00 | *
+2020-08-24 04:00:59,446 - main.py - train - INFO - Epoch [2/50]
+2020-08-24 04:01:00,545 - main.py - train - INFO - Epoch [3/50]
+2020-08-24 04:01:01,937 - main.py - train - INFO - Epoch [4/50]
+2020-08-24 04:01:03,008 - main.py - train - INFO - Epoch [5/50]
+2020-08-24 04:01:04,355 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 151 phrases; correct: 56.
+
+2020-08-24 04:01:04,356 - main.py - evaluate - INFO - accuracy:  71.65%; precision:  37.09%; recall:  30.11%; FB1:  33.23
+
+2020-08-24 04:01:04,358 - main.py - evaluate - INFO -           DISEASE: precision:  45.83%; recall:  44.00%; FB1:  44.90  24
+
+2020-08-24 04:01:04,358 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:01:04,362 - main.py - evaluate - INFO -           PATIENT: precision:  33.33%; recall:  46.67%; FB1:  38.89  21
+
+2020-08-24 04:01:04,362 - main.py - evaluate - INFO -          QUESTION: precision:  40.62%; recall:  40.00%; FB1:  40.31  64
+
+2020-08-24 04:01:04,363 - main.py - evaluate - INFO -              SIGN: precision:  28.57%; recall:  21.43%; FB1:  24.49  42
+
+2020-08-24 04:01:04,363 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:01:04,368 - main.py - train - INFO - Iter: 100 | Dev Loss: 18.4751 | Dev F1-macro: 0.3807 | Time: 0:00:07 | *
+2020-08-24 04:01:04,531 - main.py - train - INFO - Epoch [6/50]
+2020-08-24 04:01:05,618 - main.py - train - INFO - Epoch [7/50]
+2020-08-24 04:01:06,810 - main.py - train - INFO - Epoch [8/50]
+2020-08-24 04:01:07,867 - main.py - train - INFO - Epoch [9/50]
+2020-08-24 04:01:08,926 - main.py - train - INFO - Epoch [10/50]
+2020-08-24 04:01:10,148 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 219 phrases; correct: 89.
+
+2020-08-24 04:01:10,149 - main.py - evaluate - INFO - accuracy:  73.63%; precision:  40.64%; recall:  47.85%; FB1:  43.95
+
+2020-08-24 04:01:10,150 - main.py - evaluate - INFO -           DISEASE: precision:  50.00%; recall:  60.00%; FB1:  54.55  30
+
+2020-08-24 04:01:10,150 - main.py - evaluate - INFO -              PART: precision:  40.62%; recall:  61.90%; FB1:  49.06  32
+
+2020-08-24 04:01:10,155 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 04:01:10,155 - main.py - evaluate - INFO -          QUESTION: precision:  36.11%; recall:  40.00%; FB1:  37.96  72
+
+2020-08-24 04:01:10,155 - main.py - evaluate - INFO -              SIGN: precision:  40.98%; recall:  44.64%; FB1:  42.74  61
+
+2020-08-24 04:01:10,156 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2020-08-24 04:01:10,160 - main.py - train - INFO - Iter: 200 | Dev Loss: 18.8419 | Dev F1-macro: 0.4373 | Time: 0:00:12 | *
+2020-08-24 04:01:10,746 - main.py - train - INFO - Epoch [11/50]
+2020-08-24 04:01:11,814 - main.py - train - INFO - Epoch [12/50]
+2020-08-24 04:01:13,057 - main.py - train - INFO - Epoch [13/50]
+2020-08-24 04:01:14,136 - main.py - train - INFO - Epoch [14/50]
+2020-08-24 04:01:15,187 - main.py - train - INFO - Epoch [15/50]
+2020-08-24 04:01:16,046 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 214 phrases; correct: 84.
+
+2020-08-24 04:01:16,046 - main.py - evaluate - INFO - accuracy:  71.54%; precision:  39.25%; recall:  45.16%; FB1:  42.00
+
+2020-08-24 04:01:16,048 - main.py - evaluate - INFO -           DISEASE: precision:  55.17%; recall:  64.00%; FB1:  59.26  29
+
+2020-08-24 04:01:16,052 - main.py - evaluate - INFO -              PART: precision:  38.24%; recall:  61.90%; FB1:  47.27  34
+
+2020-08-24 04:01:16,052 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 04:01:16,053 - main.py - evaluate - INFO -          QUESTION: precision:  31.67%; recall:  29.23%; FB1:  30.40  60
+
+2020-08-24 04:01:16,053 - main.py - evaluate - INFO -              SIGN: precision:  37.31%; recall:  44.64%; FB1:  40.65  67
+
+2020-08-24 04:01:16,054 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 04:01:16,059 - main.py - train - INFO - Iter: 300 | Dev Loss: 23.5305 | Dev F1-macro: 0.4416 | Time: 0:00:18 | *
+2020-08-24 04:01:16,887 - main.py - train - INFO - Epoch [16/50]
+2020-08-24 04:01:18,058 - main.py - train - INFO - Epoch [17/50]
+2020-08-24 04:01:19,110 - main.py - train - INFO - Epoch [18/50]
+2020-08-24 04:01:20,359 - main.py - train - INFO - Epoch [19/50]
+2020-08-24 04:01:21,433 - main.py - train - INFO - Epoch [20/50]
+2020-08-24 04:01:21,707 - main.py - train - INFO - Iter: 400 | Dev Loss: 28.2384 | Dev F1-macro: 0.4184 | Time: 0:00:24 | 
+2020-08-24 04:01:22,700 - main.py - train - INFO - Epoch [21/50]
+2020-08-24 04:01:23,886 - main.py - train - INFO - Epoch [22/50]
+2020-08-24 04:01:25,010 - main.py - train - INFO - Epoch [23/50]
+2020-08-24 04:01:26,078 - main.py - train - INFO - Epoch [24/50]
+2020-08-24 04:01:27,547 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 196 phrases; correct: 80.
+
+2020-08-24 04:01:27,548 - main.py - evaluate - INFO - accuracy:  73.14%; precision:  40.82%; recall:  43.01%; FB1:  41.88
+
+2020-08-24 04:01:27,550 - main.py - evaluate - INFO -           DISEASE: precision:  60.00%; recall:  48.00%; FB1:  53.33  20
+
+2020-08-24 04:01:27,552 - main.py - evaluate - INFO -              PART: precision:  44.44%; recall:  57.14%; FB1:  50.00  27
+
+2020-08-24 04:01:27,553 - main.py - evaluate - INFO -           PATIENT: precision:  42.86%; recall:  60.00%; FB1:  50.00  21
+
+2020-08-24 04:01:27,553 - main.py - evaluate - INFO -          QUESTION: precision:  33.85%; recall:  33.85%; FB1:  33.85  65
+
+2020-08-24 04:01:27,554 - main.py - evaluate - INFO -              SIGN: precision:  40.00%; recall:  42.86%; FB1:  41.38  60
+
+2020-08-24 04:01:27,554 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 04:01:27,560 - main.py - train - INFO - Iter: 500 | Dev Loss: 29.7889 | Dev F1-macro: 0.4457 | Time: 0:00:30 | *
+2020-08-24 04:01:27,893 - main.py - train - INFO - Epoch [25/50]
+2020-08-24 04:01:29,136 - main.py - train - INFO - Epoch [26/50]
+2020-08-24 04:01:30,407 - main.py - train - INFO - Epoch [27/50]
+2020-08-24 04:01:31,733 - main.py - train - INFO - Epoch [28/50]
+2020-08-24 04:01:33,334 - main.py - train - INFO - Epoch [29/50]
+2020-08-24 04:01:34,631 - main.py - train - INFO - Iter: 600 | Dev Loss: 36.6710 | Dev F1-macro: 0.3945 | Time: 0:00:37 | 
+2020-08-24 04:01:35,005 - main.py - train - INFO - Epoch [30/50]
+2020-08-24 04:01:36,639 - main.py - train - INFO - Epoch [31/50]
+2020-08-24 04:01:38,090 - main.py - train - INFO - Epoch [32/50]
+2020-08-24 04:01:39,414 - main.py - train - INFO - Epoch [33/50]
+2020-08-24 04:01:40,597 - main.py - train - INFO - Epoch [34/50]
+2020-08-24 04:01:41,214 - main.py - train - INFO - Iter: 700 | Dev Loss: 36.6037 | Dev F1-macro: 0.4064 | Time: 0:00:43 | 
+2020-08-24 04:01:42,307 - main.py - train - INFO - Epoch [35/50]
+2020-08-24 04:01:43,521 - main.py - train - INFO - Epoch [36/50]
+2020-08-24 04:01:44,601 - main.py - train - INFO - Epoch [37/50]
+2020-08-24 04:01:45,934 - main.py - train - INFO - Epoch [38/50]
+2020-08-24 04:01:46,987 - main.py - train - INFO - Epoch [39/50]
+2020-08-24 04:01:47,304 - main.py - train - INFO - Iter: 800 | Dev Loss: 42.0644 | Dev F1-macro: 0.4111 | Time: 0:00:50 | 
+2020-08-24 04:01:48,295 - main.py - train - INFO - Epoch [40/50]
+2020-08-24 04:01:49,385 - main.py - train - INFO - Epoch [41/50]
+2020-08-24 04:01:50,610 - main.py - train - INFO - Epoch [42/50]
+2020-08-24 04:01:51,665 - main.py - train - INFO - Epoch [43/50]
+2020-08-24 04:01:52,766 - main.py - train - INFO - Iter: 900 | Dev Loss: 39.3257 | Dev F1-macro: 0.4173 | Time: 0:00:55 | 
+2020-08-24 04:01:52,943 - main.py - train - INFO - Epoch [44/50]
+2020-08-24 04:01:54,041 - main.py - train - INFO - Epoch [45/50]
+2020-08-24 04:01:55,111 - main.py - train - INFO - Epoch [46/50]
+2020-08-24 04:01:56,339 - main.py - train - INFO - Epoch [47/50]
+2020-08-24 04:01:57,419 - main.py - train - INFO - Epoch [48/50]
+2020-08-24 04:01:58,328 - main.py - train - INFO - Iter: 1000 | Dev Loss: 41.8001 | Dev F1-macro: 0.4336 | Time: 0:01:01 | 
+2020-08-24 04:01:58,700 - main.py - train - INFO - Epoch [49/50]
+2020-08-24 04:01:59,805 - main.py - train - INFO - Epoch [50/50]
+2020-08-24 04:02:36,466 - logger.py - print_config - INFO - len_dim        :	20
+2020-08-24 04:02:36,467 - logger.py - print_config - INFO - char_dim       :	100
+2020-08-24 04:02:36,467 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-08-24 04:02:36,471 - logger.py - print_config - INFO - dropout        :	0.5
+2020-08-24 04:02:36,472 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-08-24 04:02:36,472 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-08-24 04:02:36,473 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-08-24 04:02:36,476 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-08-24 04:02:36,478 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-08-24 04:02:36,479 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-08-24 04:02:36,479 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-08-24 04:02:36,480 - logger.py - print_config - INFO - batch_size     :	10
+2020-08-24 04:02:36,480 - logger.py - print_config - INFO - lr             :	0.005
+2020-08-24 04:02:36,480 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-08-24 04:02:36,481 - logger.py - print_config - INFO - optimizer      :	adam
+2020-08-24 04:02:36,481 - logger.py - print_config - INFO - max_epoch      :	50
+2020-08-24 04:02:36,482 - logger.py - print_config - INFO - clip           :	5
+2020-08-24 04:02:36,482 - logger.py - print_config - INFO - steps_check    :	100
+2020-08-24 04:02:36,483 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-08-24 04:02:36,483 - logger.py - print_config - INFO - require_improve:	5000
+2020-08-24 04:02:36,484 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-08-24 04:02:36,487 - logger.py - print_config - INFO - log_file       :	train.log
+2020-08-24 04:02:36,488 - logger.py - print_config - INFO - train          :	True
+2020-08-24 04:02:38,763 - main.py - train - INFO - 203 / 67 / 65 sentences in train / dev / test.
+2020-08-24 04:02:38,769 - main.py - train - INFO -  Start Training ...... 
+2020-08-24 04:02:38,769 - main.py - train - INFO - Epoch [1/50]
+2020-08-24 04:02:39,211 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 125 phrases; correct: 0.
+
+2020-08-24 04:02:39,212 - main.py - evaluate - INFO - accuracy:  56.21%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2020-08-24 04:02:39,213 - main.py - evaluate - INFO -           DISEASE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:02:39,217 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2020-08-24 04:02:39,217 - main.py - evaluate - INFO -           PATIENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:02:39,218 - main.py - evaluate - INFO -          QUESTION: precision:   0.00%; recall:   0.00%; FB1:   0.00  90
+
+2020-08-24 04:02:39,218 - main.py - evaluate - INFO -              SIGN: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:02:39,219 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  20
+
+2020-08-24 04:02:39,224 - main.py - train - INFO - Iter: 0 | Dev Loss: 60.4193 | Dev F1-macro: 0.0000 | Time: 0:00:00 | *
+2020-08-24 04:02:40,588 - main.py - train - INFO - Epoch [2/50]
+2020-08-24 04:02:41,698 - main.py - train - INFO - Epoch [3/50]
+2020-08-24 04:02:42,863 - main.py - train - INFO - Epoch [4/50]
+2020-08-24 04:02:43,959 - main.py - train - INFO - Epoch [5/50]
+2020-08-24 04:02:45,286 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 151 phrases; correct: 56.
+
+2020-08-24 04:02:45,286 - main.py - evaluate - INFO - accuracy:  71.65%; precision:  37.09%; recall:  30.11%; FB1:  33.23
+
+2020-08-24 04:02:45,288 - main.py - evaluate - INFO -           DISEASE: precision:  45.83%; recall:  44.00%; FB1:  44.90  24
+
+2020-08-24 04:02:45,288 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:02:45,292 - main.py - evaluate - INFO -           PATIENT: precision:  33.33%; recall:  46.67%; FB1:  38.89  21
+
+2020-08-24 04:02:45,292 - main.py - evaluate - INFO -          QUESTION: precision:  40.62%; recall:  40.00%; FB1:  40.31  64
+
+2020-08-24 04:02:45,293 - main.py - evaluate - INFO -              SIGN: precision:  28.57%; recall:  21.43%; FB1:  24.49  42
+
+2020-08-24 04:02:45,293 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-08-24 04:02:45,298 - main.py - train - INFO - Iter: 100 | Dev Loss: 18.4751 | Dev F1-macro: 0.3807 | Time: 0:00:07 | *
+2020-08-24 04:02:45,443 - main.py - train - INFO - Epoch [6/50]
+2020-08-24 04:02:46,539 - main.py - train - INFO - Epoch [7/50]
+2020-08-24 04:02:47,716 - main.py - train - INFO - Epoch [8/50]
+2020-08-24 04:02:48,952 - main.py - train - INFO - Epoch [9/50]
+2020-08-24 04:02:50,015 - main.py - train - INFO - Epoch [10/50]
+2020-08-24 04:02:51,127 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 219 phrases; correct: 89.
+
+2020-08-24 04:02:51,128 - main.py - evaluate - INFO - accuracy:  73.63%; precision:  40.64%; recall:  47.85%; FB1:  43.95
+
+2020-08-24 04:02:51,129 - main.py - evaluate - INFO -           DISEASE: precision:  50.00%; recall:  60.00%; FB1:  54.55  30
+
+2020-08-24 04:02:51,129 - main.py - evaluate - INFO -              PART: precision:  40.62%; recall:  61.90%; FB1:  49.06  32
+
+2020-08-24 04:02:51,133 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 04:02:51,134 - main.py - evaluate - INFO -          QUESTION: precision:  36.11%; recall:  40.00%; FB1:  37.96  72
+
+2020-08-24 04:02:51,134 - main.py - evaluate - INFO -              SIGN: precision:  40.98%; recall:  44.64%; FB1:  42.74  61
+
+2020-08-24 04:02:51,135 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2020-08-24 04:02:51,141 - main.py - train - INFO - Iter: 200 | Dev Loss: 18.8419 | Dev F1-macro: 0.4373 | Time: 0:00:12 | *
+2020-08-24 04:02:51,741 - main.py - train - INFO - Epoch [11/50]
+2020-08-24 04:02:52,994 - main.py - train - INFO - Epoch [12/50]
+2020-08-24 04:02:54,072 - main.py - train - INFO - Epoch [13/50]
+2020-08-24 04:02:55,158 - main.py - train - INFO - Epoch [14/50]
+2020-08-24 04:02:56,229 - main.py - train - INFO - Epoch [15/50]
+2020-08-24 04:02:57,078 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 214 phrases; correct: 84.
+
+2020-08-24 04:02:57,079 - main.py - evaluate - INFO - accuracy:  71.54%; precision:  39.25%; recall:  45.16%; FB1:  42.00
+
+2020-08-24 04:02:57,080 - main.py - evaluate - INFO -           DISEASE: precision:  55.17%; recall:  64.00%; FB1:  59.26  29
+
+2020-08-24 04:02:57,084 - main.py - evaluate - INFO -              PART: precision:  38.24%; recall:  61.90%; FB1:  47.27  34
+
+2020-08-24 04:02:57,084 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-08-24 04:02:57,085 - main.py - evaluate - INFO -          QUESTION: precision:  31.67%; recall:  29.23%; FB1:  30.40  60
+
+2020-08-24 04:02:57,085 - main.py - evaluate - INFO -              SIGN: precision:  37.31%; recall:  44.64%; FB1:  40.65  67
+
+2020-08-24 04:02:57,086 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 04:02:57,090 - main.py - train - INFO - Iter: 300 | Dev Loss: 23.5305 | Dev F1-macro: 0.4416 | Time: 0:00:18 | *
+2020-08-24 04:02:57,725 - main.py - train - INFO - Epoch [16/50]
+2020-08-24 04:02:58,999 - main.py - train - INFO - Epoch [17/50]
+2020-08-24 04:03:00,216 - main.py - train - INFO - Epoch [18/50]
+2020-08-24 04:03:01,477 - main.py - train - INFO - Epoch [19/50]
+2020-08-24 04:03:02,587 - main.py - train - INFO - Epoch [20/50]
+2020-08-24 04:03:02,876 - main.py - train - INFO - Iter: 400 | Dev Loss: 28.2384 | Dev F1-macro: 0.4184 | Time: 0:00:24 | 
+2020-08-24 04:03:04,009 - main.py - train - INFO - Epoch [21/50]
+2020-08-24 04:03:05,084 - main.py - train - INFO - Epoch [22/50]
+2020-08-24 04:03:06,333 - main.py - train - INFO - Epoch [23/50]
+2020-08-24 04:03:07,440 - main.py - train - INFO - Epoch [24/50]
+2020-08-24 04:03:08,843 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 196 phrases; correct: 80.
+
+2020-08-24 04:03:08,843 - main.py - evaluate - INFO - accuracy:  73.14%; precision:  40.82%; recall:  43.01%; FB1:  41.88
+
+2020-08-24 04:03:08,845 - main.py - evaluate - INFO -           DISEASE: precision:  60.00%; recall:  48.00%; FB1:  53.33  20
+
+2020-08-24 04:03:08,848 - main.py - evaluate - INFO -              PART: precision:  44.44%; recall:  57.14%; FB1:  50.00  27
+
+2020-08-24 04:03:08,849 - main.py - evaluate - INFO -           PATIENT: precision:  42.86%; recall:  60.00%; FB1:  50.00  21
+
+2020-08-24 04:03:08,849 - main.py - evaluate - INFO -          QUESTION: precision:  33.85%; recall:  33.85%; FB1:  33.85  65
+
+2020-08-24 04:03:08,850 - main.py - evaluate - INFO -              SIGN: precision:  40.00%; recall:  42.86%; FB1:  41.38  60
+
+2020-08-24 04:03:08,850 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-08-24 04:03:08,855 - main.py - train - INFO - Iter: 500 | Dev Loss: 29.7889 | Dev F1-macro: 0.4457 | Time: 0:00:30 | *
+2020-08-24 04:03:09,238 - main.py - train - INFO - Epoch [25/50]
+2020-08-24 04:03:10,548 - main.py - train - INFO - Epoch [26/50]
+2020-08-24 04:03:11,771 - main.py - train - INFO - Epoch [27/50]
+2020-08-24 04:03:12,878 - main.py - train - INFO - Epoch [28/50]
+2020-08-24 04:03:13,968 - main.py - train - INFO - Epoch [29/50]
+2020-08-24 04:03:14,978 - main.py - train - INFO - Iter: 600 | Dev Loss: 36.6710 | Dev F1-macro: 0.3945 | Time: 0:00:36 | 
+2020-08-24 04:03:15,265 - main.py - train - INFO - Epoch [30/50]
+2020-08-24 04:03:16,484 - main.py - train - INFO - Epoch [31/50]
+2020-08-24 04:03:17,576 - main.py - train - INFO - Epoch [32/50]
+2020-08-24 04:03:18,999 - main.py - train - INFO - Epoch [33/50]
+2020-08-24 04:03:20,046 - main.py - train - INFO - Epoch [34/50]
+2020-08-24 04:03:20,655 - main.py - train - INFO - Iter: 700 | Dev Loss: 36.6037 | Dev F1-macro: 0.4064 | Time: 0:00:42 | 
+2020-08-24 04:03:21,585 - main.py - train - INFO - Epoch [35/50]
+2020-08-24 04:03:22,790 - main.py - train - INFO - Epoch [36/50]
+2020-08-24 04:03:23,867 - main.py - train - INFO - Epoch [37/50]
+2020-08-24 04:03:25,160 - main.py - train - INFO - Epoch [38/50]
+2020-08-24 04:03:26,254 - main.py - train - INFO - Epoch [39/50]
+2020-08-24 04:03:26,575 - main.py - train - INFO - Iter: 800 | Dev Loss: 42.0644 | Dev F1-macro: 0.4111 | Time: 0:00:48 | 
+2020-08-24 04:03:27,542 - main.py - train - INFO - Epoch [40/50]
+2020-08-24 04:03:28,743 - main.py - train - INFO - Epoch [41/50]
+2020-08-24 04:03:29,974 - main.py - train - INFO - Epoch [42/50]
+2020-08-24 04:03:31,045 - main.py - train - INFO - Epoch [43/50]
+2020-08-24 04:03:32,142 - main.py - train - INFO - Iter: 900 | Dev Loss: 39.3257 | Dev F1-macro: 0.4173 | Time: 0:00:53 | 
+2020-08-24 04:03:32,313 - main.py - train - INFO - Epoch [44/50]
+2020-08-24 04:03:33,416 - main.py - train - INFO - Epoch [45/50]
+2020-08-24 04:03:34,612 - main.py - train - INFO - Epoch [46/50]
+2020-08-24 04:03:35,896 - main.py - train - INFO - Epoch [47/50]
+2020-08-24 04:03:36,982 - main.py - train - INFO - Epoch [48/50]
+2020-08-24 04:03:37,893 - main.py - train - INFO - Iter: 1000 | Dev Loss: 41.8001 | Dev F1-macro: 0.4336 | Time: 0:00:59 | 
+2020-08-24 04:03:38,282 - main.py - train - INFO - Epoch [49/50]
+2020-08-24 04:03:39,335 - main.py - train - INFO - Epoch [50/50]
+2020-09-02 07:43:40,658 - logger.py - print_config - INFO - len_dim        :	20
+2020-09-02 07:43:40,662 - logger.py - print_config - INFO - char_dim       :	100
+2020-09-02 07:43:40,662 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-09-02 07:43:40,663 - logger.py - print_config - INFO - dropout        :	0.5
+2020-09-02 07:43:40,663 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-09-02 07:43:40,664 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-09-02 07:43:40,664 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-09-02 07:43:40,665 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-09-02 07:43:40,666 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-09-02 07:43:40,666 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-09-02 07:43:40,667 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-09-02 07:43:40,667 - logger.py - print_config - INFO - batch_size     :	10
+2020-09-02 07:43:40,668 - logger.py - print_config - INFO - lr             :	0.005
+2020-09-02 07:43:40,675 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-09-02 07:43:40,675 - logger.py - print_config - INFO - optimizer      :	adam
+2020-09-02 07:43:40,676 - logger.py - print_config - INFO - max_epoch      :	50
+2020-09-02 07:43:40,676 - logger.py - print_config - INFO - clip           :	5
+2020-09-02 07:43:40,677 - logger.py - print_config - INFO - steps_check    :	100
+2020-09-02 07:43:40,677 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-09-02 07:43:40,678 - logger.py - print_config - INFO - require_improve:	5000
+2020-09-02 07:43:40,678 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-09-02 07:43:40,679 - logger.py - print_config - INFO - log_file       :	train.log
+2020-09-02 07:43:40,679 - logger.py - print_config - INFO - train          :	True
+2020-09-02 07:44:24,880 - logger.py - print_config - INFO - len_dim        :	20
+2020-09-02 07:44:24,881 - logger.py - print_config - INFO - char_dim       :	100
+2020-09-02 07:44:24,881 - logger.py - print_config - INFO - hidden_dim     :	256
+2020-09-02 07:44:24,885 - logger.py - print_config - INFO - dropout        :	0.5
+2020-09-02 07:44:24,885 - logger.py - print_config - INFO - train_file     :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\train_data.csv
+2020-09-02 07:44:24,886 - logger.py - print_config - INFO - dev_file       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\dev_data.csv
+2020-09-02 07:44:24,887 - logger.py - print_config - INFO - test_file      :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\test_data.csv
+2020-09-02 07:44:24,889 - logger.py - print_config - INFO - word2id        :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\word2id.csv
+2020-09-02 07:44:24,890 - logger.py - print_config - INFO - pre_embedding  :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\pre_embedding.csv
+2020-09-02 07:44:24,893 - logger.py - print_config - INFO - external_vocab :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//resource\medical_vocab.csv
+2020-09-02 07:44:24,893 - logger.py - print_config - INFO - tag2id         :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER//data\tag2id.csv
+2020-09-02 07:44:24,894 - logger.py - print_config - INFO - batch_size     :	10
+2020-09-02 07:44:24,895 - logger.py - print_config - INFO - lr             :	0.005
+2020-09-02 07:44:24,895 - logger.py - print_config - INFO - weight_decay   :	1e-05
+2020-09-02 07:44:24,896 - logger.py - print_config - INFO - optimizer      :	adam
+2020-09-02 07:44:24,896 - logger.py - print_config - INFO - max_epoch      :	50
+2020-09-02 07:44:24,897 - logger.py - print_config - INFO - clip           :	5
+2020-09-02 07:44:24,897 - logger.py - print_config - INFO - steps_check    :	100
+2020-09-02 07:44:24,898 - logger.py - print_config - INFO - save_dir       :	C:\Users\yyimi\OneDrive\桌面\KG\jiankangle\NER\result
+2020-09-02 07:44:24,901 - logger.py - print_config - INFO - require_improve:	5000
+2020-09-02 07:44:24,901 - logger.py - print_config - INFO - model_type     :	bilstm
+2020-09-02 07:44:24,902 - logger.py - print_config - INFO - log_file       :	train.log
+2020-09-02 07:44:24,902 - logger.py - print_config - INFO - train          :	True
+2020-09-02 07:44:27,908 - main.py - train - INFO - 203 / 67 / 65 sentences in train / dev / test.
+2020-09-02 07:44:27,918 - main.py - train - INFO -  Start Training ...... 
+2020-09-02 07:44:27,918 - main.py - train - INFO - Epoch [1/50]
+2020-09-02 07:44:28,586 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 125 phrases; correct: 0.
+
+2020-09-02 07:44:28,587 - main.py - evaluate - INFO - accuracy:  56.21%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2020-09-02 07:44:28,588 - main.py - evaluate - INFO -           DISEASE: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-09-02 07:44:28,589 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+
+2020-09-02 07:44:28,593 - main.py - evaluate - INFO -           PATIENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-09-02 07:44:28,593 - main.py - evaluate - INFO -          QUESTION: precision:   0.00%; recall:   0.00%; FB1:   0.00  90
+
+2020-09-02 07:44:28,594 - main.py - evaluate - INFO -              SIGN: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-09-02 07:44:28,595 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  20
+
+2020-09-02 07:44:28,601 - main.py - train - INFO - Iter: 0 | Dev Loss: 60.4193 | Dev F1-macro: 0.0000 | Time: 0:00:01 | *
+2020-09-02 07:44:30,436 - main.py - train - INFO - Epoch [2/50]
+2020-09-02 07:44:32,579 - main.py - train - INFO - Epoch [3/50]
+2020-09-02 07:44:34,034 - main.py - train - INFO - Epoch [4/50]
+2020-09-02 07:44:35,513 - main.py - train - INFO - Epoch [5/50]
+2020-09-02 07:44:37,409 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 151 phrases; correct: 56.
+
+2020-09-02 07:44:37,410 - main.py - evaluate - INFO - accuracy:  71.65%; precision:  37.09%; recall:  30.11%; FB1:  33.23
+
+2020-09-02 07:44:37,411 - main.py - evaluate - INFO -           DISEASE: precision:  45.83%; recall:  44.00%; FB1:  44.90  24
+
+2020-09-02 07:44:37,412 - main.py - evaluate - INFO -              PART: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-09-02 07:44:37,416 - main.py - evaluate - INFO -           PATIENT: precision:  33.33%; recall:  46.67%; FB1:  38.89  21
+
+2020-09-02 07:44:37,416 - main.py - evaluate - INFO -          QUESTION: precision:  40.62%; recall:  40.00%; FB1:  40.31  64
+
+2020-09-02 07:44:37,417 - main.py - evaluate - INFO -              SIGN: precision:  28.57%; recall:  21.43%; FB1:  24.49  42
+
+2020-09-02 07:44:37,418 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2020-09-02 07:44:37,424 - main.py - train - INFO - Iter: 100 | Dev Loss: 18.4751 | Dev F1-macro: 0.3807 | Time: 0:00:10 | *
+2020-09-02 07:44:37,647 - main.py - train - INFO - Epoch [6/50]
+2020-09-02 07:44:39,436 - main.py - train - INFO - Epoch [7/50]
+2020-09-02 07:44:41,540 - main.py - train - INFO - Epoch [8/50]
+2020-09-02 07:44:43,009 - main.py - train - INFO - Epoch [9/50]
+2020-09-02 07:44:44,748 - main.py - train - INFO - Epoch [10/50]
+2020-09-02 07:44:46,536 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 219 phrases; correct: 89.
+
+2020-09-02 07:44:46,537 - main.py - evaluate - INFO - accuracy:  73.63%; precision:  40.64%; recall:  47.85%; FB1:  43.95
+
+2020-09-02 07:44:46,539 - main.py - evaluate - INFO -           DISEASE: precision:  50.00%; recall:  60.00%; FB1:  54.55  30
+
+2020-09-02 07:44:46,543 - main.py - evaluate - INFO -              PART: precision:  40.62%; recall:  61.90%; FB1:  49.06  32
+
+2020-09-02 07:44:46,543 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-09-02 07:44:46,544 - main.py - evaluate - INFO -          QUESTION: precision:  36.11%; recall:  40.00%; FB1:  37.96  72
+
+2020-09-02 07:44:46,545 - main.py - evaluate - INFO -              SIGN: precision:  40.98%; recall:  44.64%; FB1:  42.74  61
+
+2020-09-02 07:44:46,546 - main.py - evaluate - INFO -         TREATMENT: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+
+2020-09-02 07:44:46,554 - main.py - train - INFO - Iter: 200 | Dev Loss: 18.8419 | Dev F1-macro: 0.4373 | Time: 0:00:19 | *
+2020-09-02 07:44:47,209 - main.py - train - INFO - Epoch [11/50]
+2020-09-02 07:44:49,693 - main.py - train - INFO - Epoch [12/50]
+2020-09-02 07:44:51,185 - main.py - train - INFO - Epoch [13/50]
+2020-09-02 07:44:52,624 - main.py - train - INFO - Epoch [14/50]
+2020-09-02 07:44:54,428 - main.py - train - INFO - Epoch [15/50]
+2020-09-02 07:44:55,924 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 214 phrases; correct: 84.
+
+2020-09-02 07:44:55,925 - main.py - evaluate - INFO - accuracy:  71.54%; precision:  39.25%; recall:  45.16%; FB1:  42.00
+
+2020-09-02 07:44:55,927 - main.py - evaluate - INFO -           DISEASE: precision:  55.17%; recall:  64.00%; FB1:  59.26  29
+
+2020-09-02 07:44:55,927 - main.py - evaluate - INFO -              PART: precision:  38.24%; recall:  61.90%; FB1:  47.27  34
+
+2020-09-02 07:44:55,931 - main.py - evaluate - INFO -           PATIENT: precision:  47.62%; recall:  66.67%; FB1:  55.56  21
+
+2020-09-02 07:44:55,932 - main.py - evaluate - INFO -          QUESTION: precision:  31.67%; recall:  29.23%; FB1:  30.40  60
+
+2020-09-02 07:44:55,932 - main.py - evaluate - INFO -              SIGN: precision:  37.31%; recall:  44.64%; FB1:  40.65  67
+
+2020-09-02 07:44:55,933 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-09-02 07:44:55,940 - main.py - train - INFO - Iter: 300 | Dev Loss: 23.5305 | Dev F1-macro: 0.4416 | Time: 0:00:28 | *
+2020-09-02 07:44:57,422 - main.py - train - INFO - Epoch [16/50]
+2020-09-02 07:44:59,193 - main.py - train - INFO - Epoch [17/50]
+2020-09-02 07:45:00,701 - main.py - train - INFO - Epoch [18/50]
+2020-09-02 07:45:02,142 - main.py - train - INFO - Epoch [19/50]
+2020-09-02 07:45:03,975 - main.py - train - INFO - Epoch [20/50]
+2020-09-02 07:45:04,371 - main.py - train - INFO - Iter: 400 | Dev Loss: 28.2384 | Dev F1-macro: 0.4184 | Time: 0:00:36 | 
+2020-09-02 07:45:06,725 - main.py - train - INFO - Epoch [21/50]
+2020-09-02 07:45:08,521 - main.py - train - INFO - Epoch [22/50]
+2020-09-02 07:45:09,941 - main.py - train - INFO - Epoch [23/50]
+2020-09-02 07:45:11,394 - main.py - train - INFO - Epoch [24/50]
+2020-09-02 07:45:13,130 - main.py - evaluate - INFO - processed 1813 tokens with 186 phrases; found: 196 phrases; correct: 80.
+
+2020-09-02 07:45:13,130 - main.py - evaluate - INFO - accuracy:  73.14%; precision:  40.82%; recall:  43.01%; FB1:  41.88
+
+2020-09-02 07:45:13,132 - main.py - evaluate - INFO -           DISEASE: precision:  60.00%; recall:  48.00%; FB1:  53.33  20
+
+2020-09-02 07:45:13,136 - main.py - evaluate - INFO -              PART: precision:  44.44%; recall:  57.14%; FB1:  50.00  27
+
+2020-09-02 07:45:13,136 - main.py - evaluate - INFO -           PATIENT: precision:  42.86%; recall:  60.00%; FB1:  50.00  21
+
+2020-09-02 07:45:13,136 - main.py - evaluate - INFO -          QUESTION: precision:  33.85%; recall:  33.85%; FB1:  33.85  65
+
+2020-09-02 07:45:13,137 - main.py - evaluate - INFO -              SIGN: precision:  40.00%; recall:  42.86%; FB1:  41.38  60
+
+2020-09-02 07:45:13,137 - main.py - evaluate - INFO -         TREATMENT: precision:  33.33%; recall:  25.00%; FB1:  28.57  3
+
+2020-09-02 07:45:13,144 - main.py - train - INFO - Iter: 500 | Dev Loss: 29.7889 | Dev F1-macro: 0.4457 | Time: 0:00:45 | *
+2020-09-02 07:45:13,423 - main.py - train - INFO - Epoch [25/50]
+2020-09-02 07:45:15,248 - main.py - train - INFO - Epoch [26/50]
+2020-09-02 07:45:17,449 - main.py - train - INFO - Epoch [27/50]
+2020-09-02 07:45:18,929 - main.py - train - INFO - Epoch [28/50]
+2020-09-02 07:45:20,759 - main.py - train - INFO - Epoch [29/50]
+2020-09-02 07:45:22,420 - main.py - train - INFO - Iter: 600 | Dev Loss: 36.6710 | Dev F1-macro: 0.3945 | Time: 0:00:55 | 
+2020-09-02 07:45:22,808 - main.py - train - INFO - Epoch [30/50]
+2020-09-02 07:45:24,931 - main.py - train - INFO - Epoch [31/50]
+2020-09-02 07:45:26,938 - main.py - train - INFO - Epoch [32/50]
+2020-09-02 07:45:28,379 - main.py - train - INFO - Epoch [33/50]
+2020-09-02 07:45:29,833 - main.py - train - INFO - Epoch [34/50]
+2020-09-02 07:45:30,501 - main.py - train - INFO - Iter: 700 | Dev Loss: 36.6037 | Dev F1-macro: 0.4064 | Time: 0:01:03 | 
+2020-09-02 07:45:31,837 - main.py - train - INFO - Epoch [35/50]
+2020-09-02 07:45:33,344 - main.py - train - INFO - Epoch [36/50]
+2020-09-02 07:45:35,254 - main.py - train - INFO - Epoch [37/50]
+2020-09-02 07:45:36,709 - main.py - train - INFO - Epoch [38/50]
+2020-09-02 07:45:38,291 - main.py - train - INFO - Epoch [39/50]
+2020-09-02 07:45:38,737 - main.py - train - INFO - Iter: 800 | Dev Loss: 42.0644 | Dev F1-macro: 0.4111 | Time: 0:01:11 | 
+2020-09-02 07:45:40,052 - main.py - train - INFO - Epoch [40/50]
+2020-09-02 07:45:42,193 - main.py - train - INFO - Epoch [41/50]
+2020-09-02 07:45:43,756 - main.py - train - INFO - Epoch [42/50]
+2020-09-02 07:45:45,210 - main.py - train - INFO - Epoch [43/50]
+2020-09-02 07:45:46,748 - main.py - train - INFO - Iter: 900 | Dev Loss: 39.3257 | Dev F1-macro: 0.4173 | Time: 0:01:19 | 
+2020-09-02 07:45:46,978 - main.py - train - INFO - Epoch [44/50]
+2020-09-02 07:45:48,470 - main.py - train - INFO - Epoch [45/50]
+2020-09-02 07:45:50,258 - main.py - train - INFO - Epoch [46/50]
+2020-09-02 07:45:51,718 - main.py - train - INFO - Epoch [47/50]
+2020-09-02 07:45:53,155 - main.py - train - INFO - Epoch [48/50]
+2020-09-02 07:45:54,368 - main.py - train - INFO - Iter: 1000 | Dev Loss: 41.8001 | Dev F1-macro: 0.4336 | Time: 0:01:26 | 
+2020-09-02 07:45:54,877 - main.py - train - INFO - Epoch [49/50]
+2020-09-02 07:45:56,353 - main.py - train - INFO - Epoch [50/50]
