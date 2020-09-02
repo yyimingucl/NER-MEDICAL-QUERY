@@ -10,9 +10,9 @@ import os
 import sys
 sys.path.append('..')
 
-from NER.NER_data import prepare_dataset,load_word2id,load_tag2id
-from NER.NER_parameters import params
-from NER.NER_functions import get_entity
+from NER_data import prepare_dataset,load_word2id,load_tag2id
+from NER_parameters import params
+from NER_functions import get_entity
 import torch
 
 
