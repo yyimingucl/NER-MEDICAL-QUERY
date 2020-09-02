@@ -20,5 +20,7 @@ There are severe problem at marking data, and the resulting perfomance on dev_se
 ### model folder store the main structure and CRF layer
 ### sql_file store the original sql file (manipulate by pymysql in NER_data)
 
+## 5.Prediction
+use the prediction.py in results folder
 
 
