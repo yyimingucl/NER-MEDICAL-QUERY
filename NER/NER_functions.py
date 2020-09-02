@@ -12,7 +12,7 @@ sys.path.append('..')
 import os
 import jieba
 import argparse
-from NER.CONLLeval import return_report
+from CONLLeval import return_report
 
 
 #%%
