@@ -13,7 +13,7 @@ import random
 import torch
 import os
 
-from NER.NER_functions import str2bool
+from NER_functions import str2bool
 #%%
 def set_manual_seed(seed):
     random.seed(seed)
