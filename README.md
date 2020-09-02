@@ -4,7 +4,9 @@ main structure from (https://github.com/DengYangyong/medical_entity_recognize)
 
 ## 1. environments
 python==3.7
+
 torch==1.6.0
+
 jieba==0.42.1
 
 ## 2.Mark the Sample Data
