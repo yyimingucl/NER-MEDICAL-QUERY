@@ -27,12 +27,20 @@ build_vocab.py: bagging the characters of train_sample
 
 predict.py: use the model to predict new inputs
 
-### command line performance
-![image](https://raw.githubusercontent.com/MissuQAQ/NER-MEDICAL-QUERY/master/image_file/1599204833(1).png)
+NER_data: prepare and clean data
+
+NER_functions: Used functions
+
+NER_parameters: Used parameters
 
 main: train the model
 
 mark_txt_process: transfer the marked queries produced by doccano to standard training sample
+
+
+### command line performance
+![image](https://raw.githubusercontent.com/MissuQAQ/NER-MEDICAL-QUERY/master/image_file/1599204833(1).png)
+
 
 ### data from doccano 
 ![image](https://raw.githubusercontent.com/MissuQAQ/NER-MEDICAL-QUERY/master/image_file/1599205074(1).png)
@@ -40,13 +48,9 @@ mark_txt_process: transfer the marked queries produced by doccano to standard tr
 ### standard training sample
 ![image](https://raw.githubusercontent.com/MissuQAQ/NER-MEDICAL-QUERY/master/image_file/1599205128(1).png)
 
-NER_data: prepare and clean data
 
-NER_functions: Used functions
-
-NER_parameters: Used parameters
 
 ## 5.Prediction
-use the prediction.py in results folder
+carry out the prediction.py on command line
 
 
